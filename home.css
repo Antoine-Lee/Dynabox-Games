@@ -18,46 +18,6 @@ h1::after
 	width: 170px;
 	margin: 20px auto 5px;
 }
-/*-----Navigation Bar-----*/
-#nav-bar
-{
-	position: sticky;
-	top: 0;
-	z-index: 20; 
-}
-.navbar-brand img
-{
-	height: 40px;
-	padding-left: 30px; 
-	margin-right: 20px; 
-}
-.navbar-nav li
-{
-	padding: 0 10px;
-}
-.navbar-nav a
-{
-	float: right;
-	text-align: left; 
-}
-#nav-bar ul li a:hover
-{
-	color: black!important; 
-}
-.navbar
-{
-	background: white;
-}
-.navbar-toggler
-{
-	border: none!important;
-}
-.nav-link
-{
-	font-weight: 600; 
-	font-size: 16px; 
-	color: #555555!important; 
-}
 
 /*-----Slider-----*/
 #slider
@@ -140,7 +100,7 @@ h1::after
 	width: 170px;
 	margin: 20px auto 5px;
 }
-.games
+#games
 {
 	margin-top: 40px; 
 }
@@ -157,11 +117,17 @@ h1::after
 	margin-bottom: 20px; 
 	color: #CCCCCC;
 }
-.games .col-md-4:hover
+#games .col-md-4:hover
 {
-	background-color: rgba(0, 0, 0, .75); 
+	background-color: rgba(0, 0, 0, 0.8); 
 	cursor: pointer;
-	transition: 0.7s;
+	transition: 0.75s;
+} 
+#games a
+{
+	border-radius: 10px; 
+	text-decoration: none; 
+	color: white; 
 }
 
 
@@ -305,20 +271,6 @@ blockquote::after
 	cursor: pointer;
 	transition: 0.5s; 
 }
-/*-----Footer-----*/
-#footer
-{
-	background: #333333;
-	color: white; 
-	padding: 20px;
-}
-
-
-
-
-
-
-
 
 
 

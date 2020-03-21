@@ -1,0 +1,48 @@
+/*-----Navigation Bar-----*/
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 20; 
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 30px; 
+	margin-right: 20px; 
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav a
+{
+	float: right;
+	text-align: left; 
+}
+#nav-bar ul li a:hover
+{
+	color: black!important; 
+}
+.navbar
+{
+	background: white;
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+	font-weight: 600; 
+	font-size: 16px; 
+	color: #555555!important; 
+}
+
+/*-----Footer-----*/
+#footer
+{
+	background: #333333;
+	color: white; 
+	padding: 20px;
+}
