@@ -499,3 +499,44 @@ ul li:last-child
 	background-color: #3f51b5; 
 }
 
+
+
+
+#contact
+{
+	background:#efefef;
+	padding-top: 40px; 
+	padding-bottom: 40px; 
+	color: #777777; 
+}
+.contact-form
+{
+	padding: 15px; 
+}
+.form-control
+{
+	border-radius: 0 !important; 
+	border: none !important;
+}
+::placeholder
+{
+	color: #999999 !important; 
+}
+.follow
+{
+	background: white;
+	padding: 10px; 
+	margin: 15px; 
+}
+.contact-info .fa
+{
+	margin: 10px; 
+	color: #007bff; 
+	font-weight: bold; 
+}
+
+
+
+
+
+
