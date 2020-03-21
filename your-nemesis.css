@@ -28,21 +28,30 @@ h1
 
 .parallex-image
 {
-	height: 100vh; 
+	height: 93vh; 
 	width: 100%; 
-	background-image: url(images/image5.jpg); 
-	background-size: cover; 
+	background-image: url(images/banner.jpg); 
+	/*background-size: cover; */
 	background-position: center; 
 	background-attachment: fixed; 
 }
-
 .parallex-image h1
 {
 	font-family: Gill Sans, sans-serif; 
 	font-weight: bolder; 
-	font-size: 60px; 
+	font-size: 100px; 
 	color: white !important; 
 	margin: 0px; 
+}
+.parallex-image h2
+{
+	font-family: Gill Sans, sans-serif; 
+	font-weight: lighter; 
+	font-size: 75px; 
+	color: white !important; 
+	margin: 0px; 
+	text-align: center; 
+	padding-bottom: 10px; 
 }
 
 
