@@ -28,10 +28,10 @@ h1
 
 .parallex-image
 {
-	height: 93vh; 
+	height: 94vh; 
 	width: 100%; 
 	background-image: url(images/banner.jpg); 
-	/*background-size: cover; */
+	background-size: cover; 
 	background-position: center; 
 	background-attachment: fixed; 
 }
