@@ -26,7 +26,7 @@ h1::after
 
 
 
-.parallex-image
+.image
 {
 	height: 94vh; 
 	width: 100%; 
@@ -35,7 +35,7 @@ h1::after
 	background-position: center; 
 	background-attachment: fixed; 
 }
-.parallex-image h1
+.image h1
 {
 	font-family: Gill Sans, sans-serif; 
 	font-weight: bolder; 
@@ -43,7 +43,7 @@ h1::after
 	color: white !important; 
 	margin: 0px; 
 }
-.parallex-image h1::after
+.image h1::after
 {
 	content: ''; 
 	background: white;
@@ -52,7 +52,7 @@ h1::after
 	width: 170px;
 	margin: 20px auto 5px;
 }
-.parallex-image h2
+.image h2
 {
 	font-family: Gill Sans, sans-serif; 
 	font-weight: lighter; 
