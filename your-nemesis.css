@@ -9,7 +9,7 @@ h1
 	color: black !important; 
 	padding-bottom: 10px; 
 }
-/*h1::after
+h1::after
 {
 	content: '';
 	background: #007bff; 
@@ -18,7 +18,7 @@ h1
 	width: 170px;
 	margin: 20px auto 5px;
 }
-*/
+
 
 
 
@@ -42,6 +42,15 @@ h1
 	font-size: 100px; 
 	color: white !important; 
 	margin: 0px; 
+}
+.parallex-image h1::after
+{
+	content: ''; 
+	background: white;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
 }
 .parallex-image h2
 {
