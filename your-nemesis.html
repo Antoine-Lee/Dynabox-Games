@@ -15,8 +15,6 @@
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-<!-- 		<meta charset="utf-8">
-	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> -->
 	    <link rel="stylesheet" href="TemplateData/style.css">
 	    <script src="TemplateData/UnityProgress.js"></script>
 	    <script src="Build/UnityLoader.js"></script>
@@ -37,7 +35,7 @@
 			        <a class="nav-link" href="home.html">Home</span></a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="home.html#about">About Us</a>
+			        <a class="nav-link" href="home.html#about">About</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="home.html#games">Games</a>
@@ -61,29 +59,26 @@
 		<section id="game">
 			<div class="container">
 				<div class="webgl-content">
-			      <div id="gameContainer" style="width: 1110px; height: 800px"></div>
+			      <div id="gameContainer" style="width: 1105px; height: 710px"></div>
 			      <div class="footer">
-			        <!-- <div class="webgl-logo"></div> -->
 					<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-			        <!-- <div class="title">Your Nemesis</div> -->
 			      </div>
 			    </div>
 			</div>
 		</section>
 
-
-
-
-		<section id="about">
+		<section id="info">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-9">
 						<h2>Your Nemesis</h2>
-						<div class="about-content">
+						<div class="info-content">
 							The game takes place in the town of Ravenkeep, the fantasy world of your nemesis, two years after the events of the twenty year war between the armies of knights. Xalvador is investigating the invasion on Ravenkeep by a mysterious species, under the help of his mentor Randall. Through fighting this foreign species, he finds that not everything is as simple as it seemed at first, and that he has blindly followed pure observation into a trap. 
 						</div>
+						<br>
+						<a target="_blank" href="" class="btn btn-primary">Download</a>
 					</div>
-					<div class="col-md-3 about-image">
+					<div class="col-md-3 info-image">
 						<img src="images/image5.jpg">
 					</div>
 				</div>
@@ -98,19 +93,19 @@
 		<section id="gallery">
 			<div class="container">
 				<div class="gallery">
-					<div class="image-box active">
+					<div id="column">
+						<img src="images/image2.jpg">
+						<img src="images/logo.png">
+					</div>
+					<div id="column">
+						<img src="images/image3.jpg">
+						<img src="images/logo.png">
+					</div>
+					<div id="column">
+						<img src="images/logo.png">
 						<img src="images/image1.jpg">
 					</div>
-					<div class="image-box">
-						<img src="images/image2.jpg">
-					</div>
-					<div class="image-box">
-						<img src="images/image3.jpg">
-					</div>
-					<div class="image-box">
-						<img src="images/image5.jpg">
 				</div>
-			</div>
 			</div>
 		</section>
 
@@ -145,12 +140,12 @@
 
 
 
-		<!-- <section id="promo">
+		<section id="support">
 			<div class="container">
-				<p>If you enjoyed playing this game, please donate, <br>or support us on itch.io</p>
-				<a href="" class="btn btn-primary">Support</a>
+				<p>Please donate, or support us on itch.io</p>
+				<a target="_blank" href="https://shadowbytegames.itch.io/" class="btn btn-primary">Support</a>
 			</div>
-		</section> -->
+		</section>
 
 
 		<section id="footer">
