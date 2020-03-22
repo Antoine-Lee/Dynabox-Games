@@ -19,13 +19,6 @@ h1::after
 	margin: 20px auto 5px;
 }
 
-
-
-
-
-
-
-
 .image
 {
 	height: 94vh; 
@@ -63,22 +56,11 @@ h1::after
 	padding-bottom: 10px; 
 }
 
-
-
-
-
 #game
 {
 	padding-top: 60px; 
 }
 
-
-
-
-
-
-
-/*-----About-----*/
 #about
 {
 	padding-top: 50px;

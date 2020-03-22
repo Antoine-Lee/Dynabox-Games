@@ -19,7 +19,6 @@ h1::after
 	margin: 20px auto 5px;
 }
 
-/*-----Slider-----*/
 #slider
 {
 	width: 100%;
@@ -46,7 +45,6 @@ h1::after
 	font-weight: lighter;
 }
 
-/*-----About-----*/
 #about
 {
 	padding-top: 50px;
@@ -76,7 +74,6 @@ h1::after
   	vertical-align: middle;
 }
 
-/*-----Games-----*/
 #games
 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/image2.jpg);
@@ -130,12 +127,6 @@ h1::after
 	color: white; 
 }
 
-
-
-
-
-
-/*-----Gallery-----*/
 #gallery 
 {
 	padding-top: 50px;
@@ -180,8 +171,6 @@ h1::after
 	flex: 50%; 
 }
 
-
-/*-----Support-----*/
 #support
 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/image2.jpg);
@@ -195,9 +184,6 @@ h1::after
 	font-size: 38px; 
 }
 
-
-
-/*-----Testimonials-----*/
 #testimonials
 {
 	padding-top: 50px; 
@@ -272,9 +258,6 @@ blockquote::after
 	transition: 0.5s; 
 }
 
-
-
-/*-----Team Members-----*/
 #team
 {
 	padding-top: 50px; 
@@ -346,9 +329,6 @@ blockquote::after
 	transition: 0.5s;
 }
 
-
-
-/*-----Price Plans-----*/
 #price
 {
 	padding: 40px 0;
@@ -450,9 +430,6 @@ ul li:last-child
 	border-color: 1px solid white; 
 	background-color: #3f51b5; 
 }
-
-
-
 
 #contact
 {
