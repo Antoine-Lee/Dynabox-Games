@@ -158,18 +158,6 @@ h1::after
 {
 	flex-basis: 50%; 
 }
-.image-slider .active
-{
-	flex-basis: 50%; 
-}
-.image-slider:hover .active
-{
-	flex-basis: 0; 
-}
-.image-slider .image-box:nth-child(1):hover
-{
-	flex: 50%; 
-}
 
 .gallery
 {
