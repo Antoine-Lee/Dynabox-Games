@@ -22,7 +22,6 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Has Beans WebGL Build.json", {onProgress: UnityProgress});
     </script>
 
@@ -68,7 +67,7 @@
 
 		<section id="parallex">
 			<div class="parallex-image">
-				<br><br><br><br><br><br><br><br>
+				<br><br><br><br><br><br>
 				<h1>Your Nemesis</h1>
 				<h2>Subtitle Here</h2>
 			</div>
@@ -76,17 +75,13 @@
 
 
 
-
-
-
-
 		<section id="game">
 			<div class="container">
 				<div class="webgl-content">
-			      <div id="gameContainer" style="width: 1095px; height: 800px"></div>
+			      <div id="gameContainer" style="width: 1100px; height: 800px"></div>
 			      <div class="footer">
 			        <div class="webgl-logo"></div>
-			        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+					<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
 			        <div class="title">Has Beans</div>
 			      </div>
 			    </div>
@@ -96,76 +91,27 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-		<div id="slider">
-			<div id="headerSlider" class="carousel slide" data-ride="carousel">
-			  <ol class="carousel-indicators">
-			    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
-			    <li data-target="#headerSlider" data-slide-to="1"></li>
-			    <li data-target="#headerSlider" data-slide-to="2"></li>
-			  </ol>
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img src="images/image4.jpg" class="d-block img-fluid">
-			      <div class="carousel-caption">
-			      	<h5>Welcome to</h5>
-			      	<h4>Shadowbyte Games</h4>
-			      	<br><br><br><br>
-			      </div>
-			    </div>
-			    <div class="carousel-item">
-			      <img src="images/TheShadowCrossing.jpg" class="d-block img-fluid">
-			      <div class="carousel-caption">
-			      	<h4>The Shadow Crossing</h4>
-			      	<br><br><br><br><br><br>
-			      </div>
-			    </div>
-			    <div class="carousel-item">
-			      <img src="images/image5.jpg" class="d-block img-fluid">
-			      <div class="carousel-caption">
-			      	<br><br><br><br><br><br><br><br><br>
-			      	<h4>Your Nemesis</h4>
-			      </div>
-			    </div>
-			  </div>
-			  <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
-			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
-			</div>
-		</div>
-
-		<!-- <section id="about">
+		<section id="about">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8">
-						<h2>About Us</h2>
+					<div class="col-md-9">
+						<h2>Your Nemesis</h2>
 						<div class="about-content">
-							Shadowbyte games strive to develop a range of diverse, immersive and accessible gameplay experiences, ranging from bean based first person shooters to chaotic, geometrical dimension defining games. <br><br>Shadowbyte games was first formed in the late months of 2019, when the developer Antoine first experimented with the intricacies between programming, character development and animation, and just like that; Shadowbyte’s first game, Splatterbeans. The company, from that point on, has only reached greater heights. <br><br>We have evolved to span several genres and our games serve diverse and faceted gamers, from the most experienced to first-timers. Shadowbyte Games was founded on the principles of ease of play, accessibility and, most importantly, entertainment, values we have instilled in each and every one of our games. 
+							The game takes place in the town of Ravenkeep, the fantasy world of your nemesis, two years after the events of the twenty year war between the armies of knights. Xalvador is investigating the invasion on Ravenkeep by a mysterious species, under the help of his mentor Randall. Through fighting this foreign species, he finds that not everything is as simple as it seemed at first, and that he has blindly followed pure observation into a trap. 
 						</div>
 					</div>
-					<div class="col-md-4 about-image">
-						<img src="images/logo.png">
-						<h2>Shadowbyte Games</h2>
+					<div class="col-md-3 about-image">
+						<img src="images/image5.jpg">
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="games">
+
+
+
+
+		<section id="other-games">
 			<div class="container">
 				<h1>Our Games</h1>
 				<div class="row games">
@@ -272,6 +218,6 @@
 			<div class="container text-center">
 				<p>something something something something</p>
 			</div>
-		</section> -->
+		</section>
 	</body>
 </html>
