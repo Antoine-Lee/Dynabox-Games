@@ -9,8 +9,8 @@
 .webgl-content .logo.Dark {background-image: url('progressLogo.Dark.png');}
 .webgl-content .progress.Dark .empty {background-image: url('progressEmpty.Dark.png');}
 .webgl-content .progress.Dark .full {background-image: url('progressFull.Dark.png');}
-.webgl-content .footer {margin-top: 5px; height: 38px; line-height: 38px; font-family: Gill Sans, sans-serif; font-size: 20px;}
-
-.webgl-content .footer .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
+/*.webgl-content .footer {margin-top: 5px; height: 38px; line-height: 38px; font-family: Gill Sans, sans-serif; font-size: 20px;}
+*/
+/*.webgl-content .footer .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
 .webgl-content .footer {margin-right: 10px; float: right;}
-.webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+.webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}*/
